@@ -7,7 +7,9 @@ VS CODE (or) Notepad
 Windows
 NAudio version 2.2.
 SixLabors.ImageSharp version 2.1.9
+FFmpeg
 ==========================
+download ffmpeg and extract it to a folder
 download the program.cs and .csproj file (Also download the "video" folder)
 open your windows terminal (cmd)
 make a new directory. (mkdir [NEW_DIR])
