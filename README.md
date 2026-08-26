@@ -14,7 +14,7 @@ make a new directory. (mkdir [NEW_DIR])
 change to the new directory. (cd [NEW_DIR])
 once there, do "dotnet add package NAudio --version 2.2.1" and "dotnet add package SixLabors.ImageSharp --version 2.1.9"
 once done, add the downloaded .cs and .csproj (also the "video" folder) to the directory via folders.
-run "program.cs" (I'm guessing you either have vs codes or notepad) and go to line line 156 and replace it with your directory (that leads to bad_apple.mp3)
+run "program.cs" (I'm guessing you either have vs codes or notepad) and go to line 156 and replace it with your directory (that leads to bad_apple.mp3)
 
 once everything is set up and ready, you can type in "dotnet run" inside of the root directory.
 
