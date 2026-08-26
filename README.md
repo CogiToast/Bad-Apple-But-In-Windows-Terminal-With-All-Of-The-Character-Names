@@ -1,8 +1,11 @@
 # Bad-Apple-But-In-Windows-Terminal-With-All-Of-The-Character-Names
-Made this in my Leisure time.
+
 =============
 I recommend checking as Code
 =============
+
+Made this in my Leisure time.
+
 ==========================
 You'll need:
 DOTNET - 8.0.403
