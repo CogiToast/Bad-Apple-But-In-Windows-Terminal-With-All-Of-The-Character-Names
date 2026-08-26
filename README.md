@@ -20,7 +20,7 @@ download ffmpeg from gyan.dev.
 download the program.cs and .csproj file (Also download bad_apple.mp3).
 open your windows terminal (cmd).
 
-make a new directory. (mkdir [NEW_DIR]).
+make a new directory. (mkdir [NEW_DIR]).  ( Assuming you're in C:\Users\[YOUR_NAME]\ )
 change to the new directory. (cd [NEW_DIR]).
 
 run "dotnet new console".
@@ -48,13 +48,16 @@ The final folder system should look like this:
 FOLDER - Users
 |
 | - FOLDER - [YOUR_NAME]
-  |- Program.cs
-  |- ShittyBadApple.csproj
-  |- FOLDER - video
-  |- ffmpeg.exe
-    |- bad_apple.mp3
-    |- bad_apple.mp4
-    |- FOLDER - frames
-    |- your ffmpeg frames
+  |- FOLDER - [NEW_DIR]
+    |- obj
+    |- bin
+    |- Program.cs
+    |- ShittyBadApple.csproj
+    |- FOLDER - video
+      |- ffmpeg.exe
+      |- bad_apple.mp3
+      |- bad_apple.mp4
+      |- FOLDER - frames
+        |- your ffmpeg frames
     
 
