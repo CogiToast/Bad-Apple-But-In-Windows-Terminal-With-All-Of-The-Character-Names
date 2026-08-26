@@ -1,6 +1,6 @@
 # Bad-Apple-But-In-Windows-Terminal-With-All-Of-The-Character-Names
 
-=============
+
 I recommend checking as Code
 =============
 
