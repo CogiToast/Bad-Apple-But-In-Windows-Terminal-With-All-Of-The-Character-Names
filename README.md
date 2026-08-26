@@ -6,7 +6,7 @@ I recommend checking as Code
 
 Made this in my Leisure time.
 
-==========================
+=
 You'll need:
 DOTNET - 8.0.403
 VS CODE (or) Notepad
