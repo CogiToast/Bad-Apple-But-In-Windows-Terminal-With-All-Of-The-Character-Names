@@ -14,24 +14,32 @@ Windows
 NAudio version 2.2.
 SixLabors.ImageSharp version 2.1.9
 FFmpeg
-Your own bad_apple.mp4
 ==========================
 
-download ffmpeg from gyan.dev
-download the program.cs and .csproj file (Also download bad_apple.mp3)
-open your windows terminal (cmd)
+download ffmpeg from gyan.dev.
+download the program.cs and .csproj file (Also download bad_apple.mp3).
+open your windows terminal (cmd).
 
-make a new directory. (mkdir [NEW_DIR])
-change to the new directory. (cd [NEW_DIR])
+make a new directory. (mkdir [NEW_DIR]).
+change to the new directory. (cd [NEW_DIR]).
 
-run "dotnet new console"
-delete the program.cs and .csproj in the folder
-(keep the 'bin' and 'obj')
+run "dotnet new console".
+(delete the program.cs and .csproj in the folder).
+(keep the 'bin' and 'obj').
 
-once there, do "dotnet add package NAudio --version 2.2.1" and "dotnet add package SixLabors.ImageSharp --version 2.1.9"
+next, in the same directory do "dotnet add package NAudio --version 2.2.1" and "dotnet add package SixLabors.ImageSharp --version 2.1.9".
 once done, add the downloaded Program.cs and ShittyBadApple.csproj (also bad_apple.mp3) to the directory via folders.
 
-run "program.cs" (I'm guessing you either have vs codes or notepad) and go to line 156 and replace it with your directory (that leads to bad_apple.mp3)
+make new directory and name it "video".
+(store your downloaded bad_apple.mp3 and bad_apple.mp4 file here as well.)
+
+extract the ffmpeg file into any folder (so long as you remember where it is).
+go into the ffmpeg folder and move the ffmpeg.exe from the folder to the new folder "video" we created.
+
+and run ".\ffmpeg.exe -y -i bad_apple.mp4 -vf "scale=240:90,pad=320:90:(ow-iw)/2:0:black,format=gray" -fps_mode vfr frames\thumb%04d.png".
+
+
+run "program.cs" (I'm guessing you either have vs codes or notepad) and go to line 156 and replace it with your directory (that leads to bad_apple.mp3).
 
 once everything is set up and ready, you can type in "dotnet run" inside of the root directory.
 
@@ -42,10 +50,11 @@ FOLDER - Users
 | - FOLDER - [YOUR_NAME]
   |- Program.cs
   |- ShittyBadApple.csproj
-  |- FOLDER -video
+  |- FOLDER - video
+  |- ffmpeg.exe
     |- bad_apple.mp3
     |- bad_apple.mp4
-    |- FOLDER - frams
+    |- FOLDER - frames
     |- your ffmpeg frames
     
 
