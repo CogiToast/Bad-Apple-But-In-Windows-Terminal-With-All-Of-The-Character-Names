@@ -1,5 +1,8 @@
 # Bad-Apple-But-In-Windows-Terminal-With-All-Of-The-Character-Names
 Made this in my Leisure time.
+=============
+I recommend checking as Code
+=============
 ==========================
 You'll need:
 DOTNET - 8.0.403
@@ -8,8 +11,9 @@ Windows
 NAudio version 2.2.
 SixLabors.ImageSharp version 2.1.9
 FFmpeg
+Your own bad_apple.mp4
 ==========================
-download ffmpeg and extract it to a folder
+download ffmpeg from gyan.dev
 download the program.cs and .csproj file (Also download the "video" folder)
 open your windows terminal (cmd)
 make a new directory. (mkdir [NEW_DIR])
