@@ -16,6 +16,8 @@ SixLabors.ImageSharp version 2.1.9
 FFmpeg
 ==========================
 
+This is a Tutorial and how it is intended to be done:
+
 download ffmpeg from gyan.dev.
 download the BadApple.cs and SBA.csproj file (Also download bad_apple.mp3).
 open your windows terminal (cmd).
@@ -36,10 +38,13 @@ make new directory and name it "video". * ( Assuming you're in C:\Users\[YOUR_US
 extract the ffmpeg file into any folder (so long as you remember where it is).
 go into the ffmpeg folder and move the ffmpeg.exe from the folder to the new folder "video" we created.
 
+change directory in windows console host to ( C:\Users\[YOUR_USER]\[NEW_DIR]\video ).
 and run ".\ffmpeg.exe -y -i bad_apple.mp4 -vf "scale=240:90,pad=320:90:(ow-iw)/2:0:black,format=gray" -fps_mode vfr frames\thumb%04d.png".
 
 
-run "BadApple.cs" (I'm guessing you either have vs codes or notepad) 
+run "BadApple.cs" (I'm guessing you either have vs codes or notepad)
+(you can do the above (line 43) by just double clicking the .cs file in folders)
+
 Next, go to line 156 and replace it with your directory that leads to bad_apple.mp3. ( C:\Users\[YOUR_USER]\[NEW_DIR]\video\bad_apple.mp3 )
 
 once everything is set up and ready, you can type in "dotnet run" inside of the root directory. ( C:\Users\[YOUR_USER]\[NEW_DIR]\ )
