@@ -67,3 +67,4 @@ FOLDER - Users
         |- your ffmpeg  frames
     
 
+make sure to ctrl + minus or scroll to make your texts smaller before running "dotnet run"
